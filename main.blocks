@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="C}atqOQjX:r=Lk?m4ijO" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id=",E/sQy;wz`XKfgcfFs1v"><value name="text"><shadow type="text" id="b^=nG/w4f`Tk_dQ1-~LP"><field name="TEXT">Hello!</field></shadow></value></block></statement></block><block type="device_button_event" id="OJfVIY.fYI|`:Mi,eMy9" x="299" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id=";Q9:GA+6CaN0e3bBxWV~"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="*7dOa+[JkJe{%|Q8Te1B"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="r[xLGi3T-FMU/IQwJ4a@"><field name="LEDS">`
+        . . . . . 
+        # # # . . 
+        # # # . . 
+        # . # . . 
+        # . # . .
+        `</field><next><block type="device_show_leds" id="k9W6({3c#YAgRUg;e7o{"><field name="LEDS">`
+        . . . . . 
+        # . # . . 
+        # # # . . 
+        # . . . . 
+        # . . . .
+        `</field><next><block type="device_show_leds" id="8KQQ=Ob5y1Pfsdoz:Rra"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="Pig[bOMYlhP*=e^+r~hB" x="615" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="-D9|Hu!3N`XDybLnvwn~"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="f~t%8ab;B4T;JlTP}DzJ"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="WweeR/$eR-i=|WSYzh|p"><field name="i">IconNames.Heart</field></block></next></block></next></block></statement></block><block type="device_gesture_event" id="rwr?:kLPs3~GY1`Sz[Pp" x="913" y="0"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="device_print_message" id="GGFc(9?92=AsuI.POdg3"><value name="text"><shadow type="text" id="pm:rj{PD}+X8X8A,;mxf"><field name="TEXT">TI VOGLIO TANTO BENE</field></shadow></value></block></statement></block><block type="device_gesture_event" id="(_I9/.6pUo2MeN:wXd;G" x="0" y="1250"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id=":vaq/@E$]rBB/Lg3bYjm"><value name="text"><shadow type="text" id="qq%X`zZ1T=BqUd_?OqO["><field name="TEXT">CIAO!</field></shadow></value><next><block type="basic_show_icon" id=":HR41H{LlsY?Y%.bxhP4"><field name="i">IconNames.Heart</field></block></next></block></statement></block></xml>
